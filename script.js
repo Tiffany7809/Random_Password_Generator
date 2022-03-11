@@ -25,7 +25,7 @@ generateBtn.addEventListener("click", writePassword);
   var symbol = ["!","@","#", "$","%","^","&","*","(",")","-","+","=","?",">","<"];
 
 function generatePassword () {
-// 1. get user preferences
+//get user preferences
 
    let Chooselength = prompt ("how many charecters do you want in your password?", "between 6 and 100");
    let ChooseLowerCase = confirm ("Do you want lower case letters?");
@@ -35,7 +35,8 @@ function generatePassword () {
    
    var charecter = []; 
    var password = [];
-// 2. identify and collect all preferences into one variable
+
+
 
   //setting password length
 
@@ -47,6 +48,8 @@ function generatePassword () {
     window.alert ("Invalid response! Please choose a password length between 6 and 100!");
   }
   
+  //identify and collect all preferences into one variable
+
   //choosing lower case
   if (ChooseLowerCase === true) {
     charecter = lowerCase.concat (charecter);
@@ -69,27 +72,25 @@ function generatePassword () {
 
   // 3. create a garunteed collection
 
-  // 4. create password variable, array
 
-
-  // 5. randomly draw a charecter
-
+  //randomly draw a charecter, loop through for the specified length
     for (var i = 0; i < Chooselength; i++) {
       var randomItem= charecter[Math.floor(Math.random() * charecter.length)];
-      password.push (randomItem);
-      password.join(" "); 
-    
-    }
-  // 6. put charecter on the password array
-  
 
-  // 7. repeat with for loops as many times as specified
+    //put charecter on the password array
+      password.push (randomItem);
+
+    }
+  
+  
 
   // 8. loops through garunteed elememts, replace elements in password array
 
-  // 9. join charecters in the password array into a string
-  // 10. return the password string
- return password;
+  // join charecters in the password array into a string
+  let finalPassword = password.join(" ")
+  
+  // return the password string
+ return finalPassword;
  
 }
 
