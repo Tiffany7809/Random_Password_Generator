@@ -42,15 +42,16 @@ function generatePassword () {
 
   if (Chooselength < 6) {
     window.alert ("please choose a number higher than 6");
-  }
-  if (Chooselength < 101) {
-  } else {
+    return;
+  }if (Chooselength > 100) {
     window.alert ("Invalid response! Please choose a password length between 6 and 100!");
+    return;
   }
-  
+ 
   //identify and collect all preferences into one variable
 
-  //choosing lower case
+ // choosing lower case
+
   if (ChooseLowerCase === true) {
     charecter = lowerCase.concat (charecter);
   }
@@ -87,8 +88,8 @@ function generatePassword () {
   // 8. loops through garunteed elememts, replace elements in password array
 
   // join charecters in the password array into a string
-  let finalPassword = password.join(" ")
-  
+  let finalPassword = password.join("")
+
   // return the password string
  return finalPassword;
  
