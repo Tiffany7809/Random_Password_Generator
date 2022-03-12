@@ -15,8 +15,6 @@ generateBtn.addEventListener("click", writePassword);
 
 
 // window promts to decide what charecters to use & how many to use
-//should show up when generate button is clicked
-
 
   // arrays of possible charecters
   var randomNumber = ["1","2","3","4","5","6","7","8","9","0"];
@@ -27,7 +25,7 @@ generateBtn.addEventListener("click", writePassword);
 function generatePassword () {
 //get user preferences
 
-   let Chooselength = prompt ("how many charecters do you want in your password?", "between 6 and 100");
+   let Chooselength = prompt ("how many charecters do you want in your password?", "between 8 and 128");
    let ChooseLowerCase = confirm ("Do you want lower case letters?");
    let ChooseUpperCase = confirm ("Do you want upper case letters?");
    let Numbers = confirm ("Do you want numbers?");
@@ -40,11 +38,11 @@ function generatePassword () {
 
   //setting password length
 
-  if (Chooselength < 6) {
-    window.alert ("please choose a number higher than 6");
+  if (Chooselength < 8) {
+    window.alert ("please choose a number higher than 8");
     return;
-  }if (Chooselength > 100) {
-    window.alert ("Invalid response! Please choose a password length between 6 and 100!");
+  }if (Chooselength > 128) {
+    window.alert ("Invalid response! Please choose a password length between 8 and 128!");
     return;
   }
  
@@ -71,8 +69,6 @@ function generatePassword () {
     charecter = symbol.concat(charecter);
   }
 
-  // 3. create a garunteed collection
-
 
   //randomly draw a charecter, loop through for the specified length
     for (var i = 0; i < Chooselength; i++) {
@@ -80,11 +76,10 @@ function generatePassword () {
 
     //put charecter on the password array
       password.push (randomItem);
-
     }
   
-  
-
+  // 3. create a garunteed collection
+ 
   // 8. loops through garunteed elememts, replace elements in password array
 
   // join charecters in the password array into a string
