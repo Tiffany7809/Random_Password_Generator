@@ -10,4 +10,4 @@ The hardest part for me to figure out was how to get the user choices into one v
 I feel like my understanding of Java Script has grown a lot through this activity, I have a better understanding of functions, for loops, and Methods.
 
 
-https://tiffany7809.github.io/Random_Password_Generator/
+https://tiffany7809.github.io/Random_Password_Generator/![Screenshot (17)](https://user-images.githubusercontent.com/97773921/163523516-94730b27-a298-44d7-8614-94372d5d9a8a.png)
