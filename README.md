@@ -21,7 +21,7 @@ I feel like my understanding of Java Script has grown a lot through this activit
 ![Screenshot (23)](https://user-images.githubusercontent.com/97773921/163659332-a474b577-edc5-43e6-ae1d-292c6215f309.png)
 
 
-https://tiffany7809.github.io/Random_Password_Generator/![Screenshot (17) (https://user-images.githubusercontent.com/97773921/163523516-94730b27-a298-44d7-8614-94372d5d9a8a.png)
+![Screenshot (17) (https://user-images.githubusercontent.com/97773921/163523516-94730b27-a298-44d7-8614-94372d5d9a8a.png)
 
 ![Screenshot (24)](https://user-images.githubusercontent.com/97773921/163659339-40415ab0-9500-46c5-b0e2-711885fc9e42.png)
 
