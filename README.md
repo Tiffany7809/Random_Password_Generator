@@ -1,4 +1,12 @@
 # Random_Password_Generator
+
+Technologies used:
+  -JavaScript
+  -CSS
+  -HTML
+  
+  
+
 The goal of this project, was to use Java Script to create a Random Password Generator. 
 When the generate password button is clicked, it will ask what the length of the password should be,
 and if the user would like to include, upper case letter, lower case letters, numbers and symbols.
@@ -10,4 +18,14 @@ The hardest part for me to figure out was how to get the user choices into one v
 I feel like my understanding of Java Script has grown a lot through this activity, I have a better understanding of functions, for loops, and Methods.
 
 
-https://tiffany7809.github.io/Random_Password_Generator/![Screenshot (17)](https://user-images.githubusercontent.com/97773921/163523516-94730b27-a298-44d7-8614-94372d5d9a8a.png)
+![Screenshot (23)](https://user-images.githubusercontent.com/97773921/163659332-a474b577-edc5-43e6-ae1d-292c6215f309.png)
+
+
+https://tiffany7809.github.io/Random_Password_Generator/![Screenshot (17) (https://user-images.githubusercontent.com/97773921/163523516-94730b27-a298-44d7-8614-94372d5d9a8a.png)
+
+![Screenshot (24)](https://user-images.githubusercontent.com/97773921/163659339-40415ab0-9500-46c5-b0e2-711885fc9e42.png)
+
+
+https://tiffany7809.github.io/Random_Password_Generator/
+
+tiffany.dempsey2000@gmail.com
